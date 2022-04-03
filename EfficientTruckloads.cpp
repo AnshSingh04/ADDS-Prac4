@@ -2,7 +2,6 @@
 #include <iostream>
 #include <math.h>
 EfficientTruckloads::EfficientTruckloads() {
-    sum=0;
 }
 
 int EfficientTruckloads::numTrucks(int numCrates, int loadSize) {
