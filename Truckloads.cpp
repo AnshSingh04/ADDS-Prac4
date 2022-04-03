@@ -5,7 +5,8 @@ Truckloads::Truckloads() {
 }
 
 int Truckloads::numTrucks(int numCrates, int loadSize) {
-
+	if(numCrates<0 || loadSize<0)
+		return "ERROR";
 	if(numCrates<=loadSize)
 		return 1;
 	if(numCrates%2)
